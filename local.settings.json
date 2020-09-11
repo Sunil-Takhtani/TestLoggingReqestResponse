@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~3",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=99f0354e-14c4-45dc-b8a3-bb7722451e52;IngestionEndpoint=https://centralindia-0.in.applicationinsights.azure.com/",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "99f0354e-14c4-45dc-b8a3-bb7722451e52",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=storageaccounttestr9829;AccountKey=zy9rYDIY34m6ISy667vNK1YGLOkJwp4M4ClZECQIpiUdsPX7ejNGZHXflCR5LpGLzV+N/gxX8p5nTuZRqJg7bg==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "testloggingreqestresponsebb35",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "WEBSITE_SITE_NAME": "TestLoggingReqestResponse",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=storageaccounttestr9829;AccountKey=zy9rYDIY34m6ISy667vNK1YGLOkJwp4M4ClZECQIpiUdsPX7ejNGZHXflCR5LpGLzV+N/gxX8p5nTuZRqJg7bg==;EndpointSuffix=core.windows.net"
+  }
+}
