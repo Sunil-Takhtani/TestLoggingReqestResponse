@@ -26,7 +26,7 @@ namespace TestLoggingReqestResponse
         [FunctionName("TestLogReqestAndResponse")]
         public Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)]
-            HttpRequest req, ExecutionContext context, ILogger log)
+            HttpRequest req, ILogger log)
         {
             log.LogInformation("SunTest C# HTTP trigger function processed a request.");
             DateTime start = DateTime.UtcNow;
